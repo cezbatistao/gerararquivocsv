@@ -37,3 +37,4 @@ with open(arquivoOutput, 'wb') as csvfile:
     for linha in listaParaGerarCsv:
         spamwriter.writerow(linha)
 
+print 'Arquivo gerado no diretorio: ' + arquivoOutput
